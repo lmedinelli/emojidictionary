@@ -34,6 +34,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.highlightedTextColor = UIColor.blue
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "moveSegue", sender: emojis[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let deVC = segue.destination as! DefinitionViewController
+        deVC.emoji = sender as! String
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
