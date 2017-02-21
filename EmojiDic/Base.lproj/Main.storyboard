@@ -46,5 +46,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Hgp-zj-pDX">
+            <objects>
+                <viewController id="49D-Ik-XTm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fKs-9Q-5Fj"/>
+                        <viewControllerLayoutGuide type="bottom" id="YJL-mW-eqt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5J2-g2-eJi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOS-IV-4IH">
+                                <rect key="frame" x="110" y="60" width="155" height="171"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="143"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely emoji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaY-yp-n69">
+                                <rect key="frame" x="109" y="281" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wOS-IV-4IH" firstAttribute="centerX" secondItem="5J2-g2-eJi" secondAttribute="centerX" id="92z-Eg-xap"/>
+                            <constraint firstItem="gaY-yp-n69" firstAttribute="top" secondItem="wOS-IV-4IH" secondAttribute="bottom" constant="50" id="akE-Tz-0Fz"/>
+                            <constraint firstItem="wOS-IV-4IH" firstAttribute="top" secondItem="fKs-9Q-5Fj" secondAttribute="bottom" constant="40" id="c81-Vn-mre"/>
+                            <constraint firstItem="gaY-yp-n69" firstAttribute="centerX" secondItem="5J2-g2-eJi" secondAttribute="centerX" id="zpD-9h-7lV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Edq-Ko-jbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="122"/>
+        </scene>
     </scenes>
 </document>
