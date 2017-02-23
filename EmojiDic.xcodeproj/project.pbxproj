@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C06DB1A1E5C992F0036180D /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB191E5C992F0036180D /* DefinitionViewController.swift */; };
+		4C081C601E5E879300933A22 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C081C5F1E5E879300933A22 /* Emoji.swift */; };
 		4C78F6BD1E5BF0E3002F75FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78F6BC1E5BF0E3002F75FF /* AppDelegate.swift */; };
 		4C78F6BF1E5BF0E3002F75FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78F6BE1E5BF0E3002F75FF /* ViewController.swift */; };
 		4C78F6C21E5BF0E3002F75FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C78F6C01E5BF0E3002F75FF /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4C06DB191E5C992F0036180D /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		4C081C5F1E5E879300933A22 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		4C78F6B91E5BF0E3002F75FF /* EmojiDic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C78F6BC1E5BF0E3002F75FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C78F6BE1E5BF0E3002F75FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				4C78F6BE1E5BF0E3002F75FF /* ViewController.swift */,
 				4C06DB191E5C992F0036180D /* DefinitionViewController.swift */,
 				4C78F6C01E5BF0E3002F75FF /* Main.storyboard */,
+				4C081C5F1E5E879300933A22 /* Emoji.swift */,
 				4C78F6C31E5BF0E3002F75FF /* Assets.xcassets */,
 				4C78F6C51E5BF0E3002F75FF /* LaunchScreen.storyboard */,
 				4C78F6C81E5BF0E3002F75FF /* Info.plist */,
@@ -142,6 +145,7 @@
 			files = (
 				4C78F6BF1E5BF0E3002F75FF /* ViewController.swift in Sources */,
 				4C06DB1A1E5C992F0036180D /* DefinitionViewController.swift in Sources */,
+				4C081C601E5E879300933A22 /* Emoji.swift in Sources */,
 				4C78F6BD1E5BF0E3002F75FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
